@@ -1,0 +1,25 @@
+[project]
+name = "01-steganography"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=46.0.3",
+    "flask>=3.1.2",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pillow>=12.0.0",
+    "pycryptodome>=3.23.0",
+    "python-gnupg>=0.5.5",
+    "scipy>=1.16.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.0.1",
+]
+
+[tool.ruff]
+# Extend the settings from the ruff.toml file.
+extend = "../ruff.toml"
